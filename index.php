@@ -40,7 +40,7 @@ $stmt = $connection->query('SELECT * FROM country');
             title: 'World Database',
             subtitle: 'Shows the Country Code, Continent, and Region of the World',
             width: 4500,
-            height: 900,
+            height: 1000,
           }
         };
 
@@ -52,7 +52,7 @@ $stmt = $connection->query('SELECT * FROM country');
 </head>
 <body>
 
-//load world data
+<!-- load world data -->
 <div id="world" style="margin: 0 auto; margin-top:30px;"></div>
   
 </body>
